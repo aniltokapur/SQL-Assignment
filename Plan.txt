@@ -1,0 +1,4 @@
+sql_db_list_tables: The agent first lists all available tables in your database to see what it can query.
+sql_db_schema: It requests the schema (DDL) and sample rows of the relevant tables to understand column names and types.
+sql_db_query_checker: The LLM automatically reviews its generated SQL string to catch syntax errors or structural mistakes before execution.
+sql_db_query: It executes the safe query, fetches the raw data rows, and translates them back into a natural language response
